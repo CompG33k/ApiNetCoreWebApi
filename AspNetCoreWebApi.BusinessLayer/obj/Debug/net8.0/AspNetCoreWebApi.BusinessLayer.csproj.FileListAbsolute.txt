@@ -1,0 +1,11 @@
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspNetCoreWebApi.BusinessLayer\bin\Debug\net8.0\AspNetCoreWebApi.BusinessLayer.deps.json
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspNetCoreWebApi.BusinessLayer\bin\Debug\net8.0\AspNetCoreWebApi.BusinessLayer.dll
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspNetCoreWebApi.BusinessLayer\bin\Debug\net8.0\AspNetCoreWebApi.BusinessLayer.pdb
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspNetCoreWebApi.BusinessLayer\obj\Debug\net8.0\AspNetCoreWebApi.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspNetCoreWebApi.BusinessLayer\obj\Debug\net8.0\AspNetCoreWebApi.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspNetCoreWebApi.BusinessLayer\obj\Debug\net8.0\AspNetCoreWebApi.BusinessLayer.AssemblyInfo.cs
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspNetCoreWebApi.BusinessLayer\obj\Debug\net8.0\AspNetCoreWebApi.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspNetCoreWebApi.BusinessLayer\obj\Debug\net8.0\AspNetCoreWebApi.BusinessLayer.dll
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspNetCoreWebApi.BusinessLayer\obj\Debug\net8.0\refint\AspNetCoreWebApi.BusinessLayer.dll
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspNetCoreWebApi.BusinessLayer\obj\Debug\net8.0\AspNetCoreWebApi.BusinessLayer.pdb
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspNetCoreWebApi.BusinessLayer\obj\Debug\net8.0\ref\AspNetCoreWebApi.BusinessLayer.dll

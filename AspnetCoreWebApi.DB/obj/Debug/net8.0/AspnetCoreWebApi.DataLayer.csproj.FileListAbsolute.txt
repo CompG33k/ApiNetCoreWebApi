@@ -1,0 +1,11 @@
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspnetCoreWebApi.DB\bin\Debug\net8.0\AspnetCoreWebApi.DataLayer.deps.json
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspnetCoreWebApi.DB\bin\Debug\net8.0\AspnetCoreWebApi.DataLayer.dll
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspnetCoreWebApi.DB\bin\Debug\net8.0\AspnetCoreWebApi.DataLayer.pdb
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspnetCoreWebApi.DB\obj\Debug\net8.0\AspnetCoreWebApi.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspnetCoreWebApi.DB\obj\Debug\net8.0\AspnetCoreWebApi.DataLayer.AssemblyInfoInputs.cache
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspnetCoreWebApi.DB\obj\Debug\net8.0\AspnetCoreWebApi.DataLayer.AssemblyInfo.cs
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspnetCoreWebApi.DB\obj\Debug\net8.0\AspnetCoreWebApi.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspnetCoreWebApi.DB\obj\Debug\net8.0\AspnetCoreWebApi.DataLayer.dll
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspnetCoreWebApi.DB\obj\Debug\net8.0\refint\AspnetCoreWebApi.DataLayer.dll
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspnetCoreWebApi.DB\obj\Debug\net8.0\AspnetCoreWebApi.DataLayer.pdb
+C:\Users\Nick\Source\Repos\ApiNetCoreWebApi\AspnetCoreWebApi.DB\obj\Debug\net8.0\ref\AspnetCoreWebApi.DataLayer.dll
