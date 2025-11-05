@@ -1,4 +1,4 @@
-# Foobar
+# WeatherWebApiShowCase
 
 Weather Showcase project to showcase file logging, client http with token key
 and Webapi format with DI C#
