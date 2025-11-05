@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspNetCoreWebApi\\AspNetCoreWebApi.csproj": {}
+    "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspNetCoreWebApi\\AspNetCoreWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\AspNetCoreWebApi.BusinessLayer.csproj": {
+    "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\AspNetCoreWebApi.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\AspNetCoreWebApi.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\AspNetCoreWebApi.BusinessLayer.csproj",
         "projectName": "AspNetCoreWebApi.BusinessLayer",
-        "projectPath": "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\AspNetCoreWebApi.BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\AspNetCoreWebApi.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\NJVel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NJVel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -41,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -62,28 +66,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\AspnetCoreWebApi.DataLayer.csproj": {
+    "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\AspnetCoreWebApi.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\AspnetCoreWebApi.DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\AspnetCoreWebApi.DataLayer.csproj",
         "projectName": "AspnetCoreWebApi.DataLayer",
-        "projectPath": "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\AspnetCoreWebApi.DataLayer.csproj",
-        "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\obj\\",
+        "projectPath": "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\AspnetCoreWebApi.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\NJVel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NJVel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -103,7 +105,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -124,28 +132,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspNetCoreWebApi\\AspNetCoreWebApi.csproj": {
+    "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspNetCoreWebApi\\AspNetCoreWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspNetCoreWebApi\\AspNetCoreWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspNetCoreWebApi\\AspNetCoreWebApi.csproj",
         "projectName": "AspNetCoreWebApi",
-        "projectPath": "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspNetCoreWebApi\\AspNetCoreWebApi.csproj",
-        "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspNetCoreWebApi\\obj\\",
+        "projectPath": "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspNetCoreWebApi\\AspNetCoreWebApi.csproj",
+        "packagesPath": "C:\\Users\\NJVel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspNetCoreWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NJVel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -159,11 +165,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\AspNetCoreWebApi.BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\AspNetCoreWebApi.BusinessLayer.csproj"
+              "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\AspNetCoreWebApi.BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspNetCoreWebApi.BusinessLayer\\AspNetCoreWebApi.BusinessLayer.csproj"
               },
-              "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\AspnetCoreWebApi.DataLayer.csproj": {
-                "projectPath": "C:\\Users\\Nick\\Source\\Repos\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\AspnetCoreWebApi.DataLayer.csproj"
+              "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\AspnetCoreWebApi.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\NJVel\\OneDrive\\Documents\\GitHub\\ApiNetCoreWebApi\\AspnetCoreWebApi.DB\\AspnetCoreWebApi.DataLayer.csproj"
               }
             }
           }
@@ -172,7 +178,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -222,7 +234,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
