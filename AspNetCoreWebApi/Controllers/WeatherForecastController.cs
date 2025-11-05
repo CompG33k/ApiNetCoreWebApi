@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using AspNetCoreWebApi.BusinessLayer.Interfaces;
 using AspnetCoreWebApi.DataLayer.Entities;
+using AspNetCoreWebApi.Clients;
 
 namespace AspNetCoreWebApi.Controllers
 {
@@ -10,23 +11,35 @@ namespace AspNetCoreWebApi.Controllers
     {
         private readonly ILogger<WeatherForecastController> _logger;
         private ISummaries _summaries;
+        
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger, ISummaries sumaries)
         {
             _logger = logger;
             _summaries = sumaries;
+            _logger.LogInformation("This is an informational log message from MyController.");
+            _logger.LogError("This is an error log message.");
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        public IActionResult Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            _logger.LogInformation("Calling get Method");
+            try
             {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = _summaries.GetSummaries()[Random.Shared.Next(_summaries.GetLength())]
-            })
-            .ToArray();
+                return Ok(Enumerable.Range(1, 5).Select(index => new WeatherForecast
+                {
+                    Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+                    TemperatureC = Random.Shared.Next(-20, 55),
+                    Summary = _summaries.GetSummaries()[Random.Shared.Next(_summaries.GetLength())]
+                })
+            .ToArray());
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
         }
     }
 }
