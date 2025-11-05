@@ -1,7 +1,7 @@
 # Foobar
 
 Weather Showcase project to showcase file logging, client http with token key
-and Webapi formmat with DI C#
+and Webapi format with DI C#
 
 ## Contributing
 
