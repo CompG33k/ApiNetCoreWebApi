@@ -1,11 +1,5 @@
-﻿using AspnetCoreWebApi.DataLayer.Entities;
-using AspNetCoreWebApi.BusinessLayer.Interfaces;
-using AspNetCoreWebApi.Clients;
-using AspNetCoreWebApi.Clients.Interfaces;
-using Microsoft.AspNetCore.Identity.Data;
+﻿using AspNetCoreWebApi.Clients.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections;
-using System.Text.Json.Nodes;
 
 namespace AspNetCoreWebApi.Controllers
 {
@@ -15,9 +9,9 @@ namespace AspNetCoreWebApi.Controllers
     {
         ILogger<LocalWeatherController> _logger;
         IApiClient _webApiClient;
-        public LocalWeatherController(ILogger<LocalWeatherController> logger, IApiClient wApiClient) 
-        { 
-            _logger =   logger;
+        public LocalWeatherController(ILogger<LocalWeatherController> logger, IApiClient wApiClient)
+        {
+            _logger = logger;
             _webApiClient = wApiClient;
         }
 
@@ -31,7 +25,7 @@ namespace AspNetCoreWebApi.Controllers
                 return NotFound("No products found."); // Returns 404 Not Found
             }
 
-            return Ok( weather);
+            return Ok(weather);
         }
     }
 }
