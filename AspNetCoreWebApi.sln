@@ -9,10 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspnetCoreWebApi.DataLayer"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApi.BusinessLayer", "AspNetCoreWebApi.BusinessLayer\AspNetCoreWebApi.BusinessLayer.csproj", "{F4EA3A50-DABF-412D-BC6F-98B67125CD48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApi.Tests", "AspNetCoreWebApiTests\AspNetCoreWebApi.Tests.csproj", "{680C5886-0D2C-4A69-AFAF-F09BD253CA0D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApiTests", "AspNetCoreWebApi.Tests\AspNetCoreWebApi.Tests.csproj", "{0E6BA875-B858-7EC8-F358-C76CF800641D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,14 +27,6 @@ Global
 		{F4EA3A50-DABF-412D-BC6F-98B67125CD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4EA3A50-DABF-412D-BC6F-98B67125CD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4EA3A50-DABF-412D-BC6F-98B67125CD48}.Release|Any CPU.Build.0 = Release|Any CPU
-		{680C5886-0D2C-4A69-AFAF-F09BD253CA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{680C5886-0D2C-4A69-AFAF-F09BD253CA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{680C5886-0D2C-4A69-AFAF-F09BD253CA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{680C5886-0D2C-4A69-AFAF-F09BD253CA0D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E6BA875-B858-7EC8-F358-C76CF800641D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E6BA875-B858-7EC8-F358-C76CF800641D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E6BA875-B858-7EC8-F358-C76CF800641D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E6BA875-B858-7EC8-F358-C76CF800641D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
