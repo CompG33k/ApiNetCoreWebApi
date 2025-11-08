@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApi.BusinessLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApi.Tests", "AspNetCoreWebApiTests\AspNetCoreWebApi.Tests.csproj", "{680C5886-0D2C-4A69-AFAF-F09BD253CA0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApiTests", "AspNetCoreWebApi.Tests\AspNetCoreWebApiTests.csproj", "{0E6BA875-B858-7EC8-F358-C76CF800641D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApiTests", "AspNetCoreWebApi.Tests\AspNetCoreWebApi.Tests.csproj", "{0E6BA875-B858-7EC8-F358-C76CF800641D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
