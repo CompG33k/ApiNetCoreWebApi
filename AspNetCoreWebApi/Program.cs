@@ -2,6 +2,10 @@ using AspNetCoreWebApi.BusinessLayer;
 using AspNetCoreWebApi.BusinessLayer.Interfaces;
 using AspNetCoreWebApi.Clients;
 using AspNetCoreWebApi.Clients.Interfaces;
+using Newtonsoft.Json;
+using NuGet.Configuration;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +24,17 @@ var config = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json")
             .Build();
+
+builder.Services.ConfigureHttpJsonOptions(options =>
+{
+    options.SerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+    options.SerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+    options.SerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+    options.SerializerOptions.WriteIndented = true; // For development/pretty printing
+    options.SerializerOptions.PropertyNameCaseInsensitive = true; // Common requirement
+    options.SerializerOptions.NumberHandling = JsonNumberHandling.AllowReadingFromString | JsonNumberHandling.WriteAsString;
+    options.SerializerOptions.Converters.Add(new JsonStringEnumConverter()); // Example: Serialize enums as strings
+});
 
 var app = builder.Build();
 
