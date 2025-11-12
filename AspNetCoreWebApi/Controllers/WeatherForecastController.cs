@@ -38,7 +38,7 @@ namespace AspNetCoreWebApi.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                return StatusCode(StatusCodes.Status500InternalServerError);
+                return StatusCode(StatusCodes.Status409Conflict);
             }
         }
     }
