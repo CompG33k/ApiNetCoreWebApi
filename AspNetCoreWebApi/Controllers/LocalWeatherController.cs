@@ -7,7 +7,7 @@ namespace AspNetCoreWebApi.Controllers
     [Route("[controller]")]
     public class LocalWeatherController : ControllerBase
     {
-        private readonly string _requestUrl = "/data/2.5/weather?q=London,uk&APPID=20d30669b4bca6954f9841457d9a0a1c";
+        private readonly string _requestUrl = "/data/2.5/weather?q=London";
         IApiClient _webApiClient;
         ILogger<LocalWeatherController> _logger;
 

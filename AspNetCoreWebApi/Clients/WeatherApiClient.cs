@@ -8,9 +8,8 @@ namespace AspNetCoreWebApi.Clients
         private readonly HttpClient _httpClient;
         private readonly ILogger<WeatherApiClient> _logger;
         string baseAddress = "https://api.openweathermap.org";
-        private readonly string _pathUrl = "/data/2.5/weather?q=London,uk&APPID=20d30669b4bca6954f9841457d9a0a1c";
-        private readonly string bearerToken = "0d30669b4bca6954f9841457d9a0a1c";
-
+        private readonly string bearerToken = "BEAREAR_TOKEN";
+        
         public WeatherApiClient(ILogger<WeatherApiClient>   logger,HttpClient httpClient)
         {
             _logger = logger;
@@ -23,16 +22,56 @@ namespace AspNetCoreWebApi.Clients
 
         public async Task<TResponse> GetAsync<TResponse>(string relativePath)
         {
-            var response = await _httpClient.GetAsync(relativePath);
-            response.EnsureSuccessStatusCode();
-            return await response.Content.ReadFromJsonAsync<TResponse>();
+            try
+            {
+                _logger.LogInformation("Sending GET request to {Url}", relativePath);
+                var response = await _httpClient.GetAsync(relativePath);
+                response.EnsureSuccessStatusCode();
+                var result = await response.Content.ReadFromJsonAsync<TResponse>();
+
+                if (result is null)
+                {
+                    throw new ApplicationException($"Deserialization returned null for {relativePath}");
+                }
+                return result!;
+            }
+            catch (HttpRequestException ex)
+            {
+                _logger.LogError(ex, "An error occurred while calling the external API. Request URL: {Url}, Status Code: {StatusCode}",
+                                 "{relativePath}", ex.StatusCode);
+                throw new ApplicationException($"Failed to retrieve data from {relativePath}", ex);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An unexpected error occurred during the API call to {Url}", relativePath);
+                throw;
+            }
         }
 
         public async Task<TResponse> PostAsync<TRequest, TResponse>(string relativePath, TRequest data)
         {
-            var response = await _httpClient.PostAsJsonAsync(relativePath, data);
-            response.EnsureSuccessStatusCode();
-            return await response.Content.ReadFromJsonAsync<TResponse>();
+            try
+            {
+                var response = await _httpClient.PostAsJsonAsync(relativePath, data);
+                response.EnsureSuccessStatusCode();
+               var result = await response.Content.ReadFromJsonAsync<TResponse>();
+                if (result is null)
+                {
+                    throw new ApplicationException($"Deserialization returned null for {relativePath}");
+                }
+                return result!;
+            }
+            catch(HttpRequestException ex)
+            {
+                _logger.LogError(ex, "An error occurred while calling the external API. Request URL: {Url}, Status Code: {StatusCode}",
+                                 "{relativePath}", ex.StatusCode);
+                throw new ApplicationException($"Failed to post data to {relativePath}", ex);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An unexpected error occurred during the API call to {Url}", relativePath);
+                throw;
+            }
         }
     }
 }

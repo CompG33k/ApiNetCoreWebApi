@@ -16,6 +16,7 @@ using System.Threading.Tasks;
 
 namespace AspNetCoreWebApi.Controllers.Tests
 {
+
     [TestClass()]
     public class LocalWeatherControllerTests
     {

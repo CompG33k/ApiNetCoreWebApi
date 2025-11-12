@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using AspNetCoreWebApi.BusinessLayer.Interfaces;
 using AspnetCoreWebApi.DataLayer.Entities;
-using AspNetCoreWebApi.Clients;
 
 namespace AspNetCoreWebApi.Controllers
 {
